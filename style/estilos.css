@@ -2,6 +2,8 @@ body{
     text-align: center;
     margin: 0%;
     background-image: url(../img/fondoPared.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     border-bottom: 25px solid black;
@@ -32,4 +34,17 @@ h1{
     width: 500px;
     display: inline-block;
     margin-bottom: 5%;
+}
+
+
+/*seccion fotos*/
+.car{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.car img{
+    border: 50px solid red;
+    border-radius: 25%;
 }
