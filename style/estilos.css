@@ -4,6 +4,7 @@ body{
     background-image: url(../img/fondoPared.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-weight: 700;
 }
 header{
     border-bottom: 25px solid black;
@@ -45,6 +46,22 @@ h1{
     margin-bottom: 25px;
 }
 .car img{
-    border: 50px solid red;
+    border: 2em solid rgb(0, 100, 255);;
     border-radius: 25%;
+}
+
+
+/*seccion de precios*/
+.precios{
+    margin-bottom: 100px;
+}
+.precios ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+
+/*seccion de horarios*/
+.horarios div{
+    margin-bottom: 25px;
 }
